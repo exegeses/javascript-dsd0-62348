@@ -1,0 +1,16 @@
+body{
+    background-color: #e785fd;
+    color: #3c3c3c;
+    font-family: Raleway, sans-serif;
+}
+
+button{
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 8px 40px;
+    transition: .5s
+}
+button:hover{
+    background-color: #3c3c3c;
+    color: #fff;
+}
