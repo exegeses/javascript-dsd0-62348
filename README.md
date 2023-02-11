@@ -6,7 +6,7 @@
 > Curso Javascript desde 0 |  
 > Sábados 10hs a 13hs |  
 > desde el 11/02/2023 al 18/03/2023  |  
-> Código 63768 |  
+> Código 62348 |  
 > sensei: Marcos Pinardi |  
 
 1. Definición
