@@ -1,0 +1,45 @@
+body{
+    background-color: #e7fcf4;
+    color: #3c3c3c;
+    font-family: Raleway, sans-serif;
+    margin: 52px auto;
+    width: 752px;
+}
+
+button{
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 8px 40px;
+    transition: .5s
+}
+button:hover{
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+#txt{
+    background-color: #fff;
+    font-size: 1.6em;
+    color: #013e27;
+    padding: 8px;
+}
+
+#tabs{
+    margin-bottom: 0px;
+}
+    #tabs + p{
+        margin-top: 0px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    #tabs a{
+        background-color: #fff;
+        color: #013e27;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-bottom: none;
+        border-radius: 12px 12px 0px 0px;
+        padding: 12px;
+        margin: 1;
+    }
