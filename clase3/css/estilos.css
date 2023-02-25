@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #e7fcf4;
     color: #3c3c3c;
@@ -43,3 +46,28 @@ button:hover{
         padding: 12px;
         margin: 1;
     }
+
+#caja{
+    width: 132px;
+    height: 132px;
+    background-color: #b9b9b9;
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 32px;
+}
+    #links {
+        margin: 24px 0px;
+    }
+        #links a{
+            text-decoration: none;
+            color: #3c3c3c;
+            background-color: #fff;
+            padding: 8px 24px;
+            border-radius: 85px;
+            border: 1px solid #ccc;
+            transition: .5s;
+        }
+        #links a:hover{
+            color: #fff;
+            background-color: #3c3c3c;            
+        }
