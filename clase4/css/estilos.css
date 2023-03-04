@@ -75,3 +75,8 @@ button:hover{
     .ocultar{
         display: none;
     }
+
+    #fantasma{
+        width: 56px;
+        position: relative;
+    }
