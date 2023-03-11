@@ -9,7 +9,8 @@ function control()
 {
     //cremos objetos de fecha
     const ahora = new Date();
-    const final = new Date( 2023, 2, 13 );
+    const final = new Date( 2023, 2, 13, 12 );
+    /* 13 de marzo a las 12hs*/
 
     //diferencia entre momentos de fecha
     let diferencia = final - ahora;
