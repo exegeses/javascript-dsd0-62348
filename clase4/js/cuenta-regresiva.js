@@ -9,7 +9,7 @@ function control()
 {
     //cremos objetos de fecha
     const ahora = new Date();
-    const final = new Date( 2023, 2, 10 );
+    const final = new Date( 2023, 2, 13 );
 
     //diferencia entre momentos de fecha
     let diferencia = final - ahora;
@@ -34,6 +34,37 @@ function control()
     //obtenemos la diferencia expresada en días
     let dias = Math.trunc( horas/24 );
         console.log( 'dias: '+ dias );
+
+    /*#### calculamos los módulos 
+    - las horas restande de cada día
+    - los minutos restantes de cada hora
+    - los segundos restantes de cada minuto ###*/
+
+    horas = horas%24;
+    minutos = minutos%60;
+    segundos = segundos%60;
+    console.log( dias +' dias '+ horas +' horas '+ minutos + ' minutos ');
+
+    /* agregamos 0 iniciales */
+    if (segundos < 10) {
+        segundos = "0" + segundos;
+    }
+    if (minutos < 10) {
+        minutos = "0" + minutos;
+    }
+    if (horas < 10) {
+        horas = "0" + horas;
+    }
+    if (dias < 10) {
+        dias = "0" + dias;
+    }
+
+    //imprimimos en los spans
+    txtDias.innerText = dias;
+    txtHoras.innerText = horas;
+    txtMinutos.innerText = minutos;
+    txtSegundos.innerText = segundos;
 }
 
 control();
+setInterval( control, 1000 );
