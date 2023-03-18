@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7fcf4;
+    color: #3c3c3c;
+    font-family: Raleway, sans-serif;
+    margin: 52px auto;
+    width: 752px;
+}
+#contenedor{
+    display: flex;
+    align-items: center;
+}
+    #next, #prev{
+        width: 48px;
+        cursor: pointer;
+    }
+    #dado{
+        width: 128px;
+        height: 128px;
+        margin: 0px 8px;
+    }
+        #dado img{
+            width: 100%;
+        }
